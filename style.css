@@ -1,0 +1,83 @@
+html body{
+        height: 100%;
+        background-color:lightsalmon;
+        background-size: cover;
+        background-attachment: fixed;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 25px;
+       
+    }
+
+    .card{
+        height: 450px;
+        background-color:indianred;
+        font-size: 25px;
+    
+    }
+    .form-control{
+        border-width:3px;  
+        border-style:groove;
+        font-size: 25px;
+    }
+    #status{
+        color:navy;
+        font-style: normal;
+        font-size:50px;
+    }
+    button{
+        border-width:3px;  
+        border-style:groove;
+    }
+    h4{
+       color: black; 
+       text-align: center;
+       margin-left: 40%;
+       margin-right: 46%;
+       background-color: #5351516b;
+       border-style: outset;
+    }
+    h2{
+        font-family: 'Courier New', Courier, monospace;
+        font-style: bold;
+        font-size: 50px;
+        text-align: center;
+        padding-top: 20px;
+    }
+     .table{
+        
+        overflow-y: auto; 
+        height: 200px;
+        background-color: indianred;
+     }
+    table th{ 
+        position: sticky;
+        top: 0; 
+        }
+
+    table  { 
+        
+        border-collapse: collapse; 
+        width: 100%; 
+    }
+    td , tr { 
+        padding: 8px 16px;
+        border: 1px solid black;
+    }
+    th     { 
+        border: 1px solid black;
+        color: black;
+        
+    }
+    
+    #btn-unsub:hover, .btn-disconnect:hover{
+        background-color: rgb(235, 130, 148);
+        color: rgb(184, 17, 25);
+    }
+    #btn-pub:hover ,#btn-sub:hover ,#btn-connect:hover{
+        background-color: rgb(235, 130, 148);
+        color:rgb(184, 17, 25);
+    }
+    #btn-connect:hover{
+        background-color: rgb(235, 130, 148);
+        color:rgb(184, 17, 25);
+    }
