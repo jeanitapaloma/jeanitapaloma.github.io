@@ -87,7 +87,7 @@ $('#btn-connect').on('click', function () {
   
   //Message
   client.on("message", function (topic, payload) {
-    console.log("Recieved Topic: "+topic+"Payload: "+payload)
+    console.log("Received Topic: "+topic+"Payload: "+payload)
     var row = $("<tr>")
     $("<td>").text(topic).appendTo($(row))
     $("<td>").text(payload).appendTo($(row))
